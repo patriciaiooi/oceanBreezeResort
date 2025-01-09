@@ -1,0 +1,30 @@
+.amenity {
+    display: flex;
+    margin-bottom: 20px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.amenity img {
+    width: 40%;
+    border-radius: 5px;
+}
+
+.amenity-content {
+    margin-left: 20px;
+}
+
+.amenity-content h3 {
+    margin-top: 0;
+}
+
+.footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}

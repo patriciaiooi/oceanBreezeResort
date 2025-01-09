@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url('img/logo.png') no-repeat center center fixed;
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+}
+
+.bold{
+    padding-bottom: 5px;
+    font-size: 3vw;  
+    font-weight: 900;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.tm-header{
+    background: #d5b430;
+    display: block;
+    padding: 10px;
+    
+}
+
+.tm-logo{
+    align-content: center;
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+}
+
+.tm-nav{
+   max-width: 90%;
+    border: 2px solid #d5b430;
+    display: block;
+    margin: 30px auto 5px auto;
+}
+
+.tm-nav div
+{
+    display: table;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+.tm-nav div ul li{
+    display:inline-block;  
+   
+}
+
+
+.tm-nav div ul li a{
+    font-size: 1.2vmax;
+    font-family: fantasyserif
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 50px;
+    
+    
+}
+.tm-nav div ul li a:hover{
+    
+    color: #df5628;
+}
+
+.tm-list::after{
+    content: url("../images/circle.png");
+  
+   
+}
+
+
+.tm-footer{
+     background: #211f17;
+     #d5b430
+    background: ;
+    display: block;
+    padding: 20px;
+    position: relative;
+
+}
+
+.tm-us{
+    display: inline-table;
+    max-width: 30%;
+    width: 30%;
+    margin: 2% 0 2% 4%
+}
+
+.tm-address{
+    display: inline-table;
+    max-width: 30%;
+    width: 30%;
+     margin: 2% 0 2% 25%
+}
+
+.tm-us .bold, .tm-address .bold{
+    color: #d5b430;
+    font-size: 1.5vw;
+    font-weight: 700;
+    padding-bottom: 4%;
+}
+.tm-us p, .tm-address p{
+    color: #fff;
+    font-size: 1.2vw;
+}
+
+
+header {
+    background: rgba(228, 196, 98, 0.8); 
+    color: #35424a;
+    padding-top: 30px;
+    border-bottom: #e8491d 3px solid;
+    text-align: center;
+    position: relative;
+}
+
+header .logo {
+    display: none; 
+}
+
+header h1 {
+    font-family: fantasyserif;
+    font-size: 36px;
+    margin: 10px 0 20px 0;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #35424a;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    color: #e8491d;
+}
+
+header nav ul li a.current {
+    color: #e8491d;
+}
+
+h1, h2 {
+    color: #35424a;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+section {
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 0.8); /* 半透明白色背景，确保内容可读 */
+}
+
+.footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}
+
+.amenities-list, .reviews-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.amenities-list li, .reviews-list li {
+    background: #ffffff;
+    margin: 10px 0;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+
+
+form {
+    background: #ffffff;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+.footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.overall-rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.rating-score {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #35424a;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.rating-details p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.category {
+    flex: 1 1 30%;
+    margin-bottom: 20px;
+}
+
+.category span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.bar {
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.bar-fill {
+    height: 10px;
+    background: #35424a;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.score {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+.reviews-list {
+    list-style: none;
+    padding: 0;
+}
+
+.reviews-list li {
+    background: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.review-rating {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #35424a;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.review-details h3 {
+    margin: 0;
+}
+
+.review-details p {
+    margin: 0;
+    color: #888;
+}
+
+.review-body p {
+    margin: 0 0 10px 0;
+}
+
+.review-response {
+    background: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.container form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 14px; 
+    color: #333; 
+}
+
+.container form input[type="text"],
+.container form input[type="email"],
+.container form select,
+.container form textarea {
+    width: 100%;
+    padding: 10px; /* 增加内边距 */
+    margin-bottom: 15px; /* 增加下边距 */
+    border: 1px solid #dddddd;
+    border-radius: 5px; /* 增加圆角 */
+    font-size: 14px; /* 调整输入框字体大小 */
+}
+
+.container form button {
+    display: inline-block;
+    background: #e8491d;
+    color: #ffffff;
+    padding: 12px 25px; /* 增加按钮的内边距 */
+    border: none;
+    border-radius: 5px; /* 增加圆角 */
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background 0.3s ease; /* 添加过渡效果 */
+}
+
+.container form button:hover {
+    background: #35424a; /* 修改按钮悬停时的背景颜色 */
+}
+
+
+.tm-res{
+    background: #d5b430;
+    padding: 2%;
+}
+
+
+.tm-resbutton p{
+    display: table;
+    max-width: 30%;
+    margin: 0 auto;
+    font-size: 2.5vw;
+     padding: 2%;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid #fff;
+   
+}
+.tm-resbutton a{
+     text-decoration: none;
+}
+
+.tm-resbutton p:hover{
+    color: #d5b430;
+    background: #fff;
+}
+
+
+/* footer */
+
+.tm-footer{
+     background: #211f17;
+    display: block;
+    padding: 20px;
+    position: relative;
+
+}
+
+.tm-us{
+    display: inline-table;
+    max-width: 30%;
+    width: 30%;
+    margin: 2% 0 2% 4%
+}
+
+.tm-address{
+    display: inline-table;
+    max-width: 30%;
+    width: 30%;
+     margin: 2% 0 2% 25%
+}
+
+.tm-us .bold, .tm-address .bold{
+    color: #d5b430;
+    font-size: 1.5vw;
+    font-weight: 700;
+    padding-bottom: 4%;
+}
+
+.tm-us p, .tm-address p{
+    color: #fff;
+    font-size: 1.2vw;
+}
+
+.tm-media{
+   display: inline;
+    margin: 0 0 0 59%;
+ 
+
+}
+.tm-media img{
+  margin: 0.5%;
+    width: 3%;
+    height: auto;
+    
+}
+
+.tm-up
+{
+    position: absolute;
+    top: 20%;
+    right: 3%;
+    width: 3%;
+    height: auto;
+    
+}
+
+.tm-review:focus{
+    outline: none;
+}
+
+.tm-revcon:focus{
+    outline: none;
+}
+
+
